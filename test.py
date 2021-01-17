@@ -9,3 +9,7 @@ print("hello world")
 
 
 print("HI")
+
+
+print("HI")
+print("HI")
