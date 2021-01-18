@@ -1,15 +1,6 @@
-print("hello world")
+from slacker import Slacker
 
-print("hello world")
+slack = Slacker('xoxb-1638397409510-1651341107284-U6m83qi0cPGFapdHkbA7fWUv')
 
-
-print("hello world")
-
-print("hello world")
-
-
-print("HI")
-
-
-print("HI")
-print("HI")
+# Send a message to #general channel
+slack.chat.post_message('#stock', 'Hello fellow slackers!')
